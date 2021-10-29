@@ -1,50 +1,55 @@
-#body {
-    display:flex
-}
+
 #div-main { 
-    
-    margin-left: 568px;
-    margin-right: 568px;
+    width: 800px;
+    margin:0 auto;
 }
+
+/*header*/
+
 #div-header {
     text-align: center;
     background-color:whitesmoke;
 }
 
-#img {
-    width: 250px;
-    height: 250px;
-}
-
-#footer {
-    text-align: center;
-}
-
-.titles-1 {
-    color:#d08d10;
-}
-
-.titles-2 {
-    /*font-weight: bold;*/
-    font-style:italic;
-
-    
-}
-
-.p {
-    font-weight: bold;
-}
-
-#hr-1 {
+.header-hr {
     border: none;
     height: 3px;
     color:goldenrod;
     background-color:goldenrod;
 }
 
-#hr-2 {
+/*Immagine del profilo*/
+
+#profile-img {
+    width: 250px;
+    height: 250px;
+}
+
+/*Titoli e sottotili*/
+
+h2 {
+    color:#d08d10;
+}
+
+h3 {
+    font-style:italic;
+}
+
+/*Paragrafi*/
+
+p {
+    font-weight: bold;
+}
+
+/*Footer*/
+
+.footer-hr {
     border: none;
     height: 2px;
     color:goldenrod;
     background-color:goldenrod;
+}
+.footer {
+    text-align: center;
+    font-weight: normal;
 }
