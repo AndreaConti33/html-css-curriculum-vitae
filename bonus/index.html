@@ -7,9 +7,12 @@
     <title>Halloween Party</title>
 </head>
 <body>
-    <header>
-        <h1>Halloween Party</h1>
-    </header>
+    <div>
+        <header>
+            <h1>Halloween Party</h1>
+            <hr>
+        </header>
+    </div>
     <form>
         <div>
             <label for="nome">Nome</label>
@@ -24,23 +27,24 @@
         <div>
             <label for="telefono">Telefono</label>
             <br>
-            <input type="tel" placeholder="Inserisci il tuo numero di telefono" required id="telefono">
+            <input type="number" placeholder="Inserisci il tuo numero" required id="telefono">
         </div>
         <div>
             <label for="ora-di-arrivo">Orario di arrivo</label>
             <br>
-            <input type="time" required id="ora di arrivo">
+            <input type="time" required id="ora-di-arrivo">
         </div>
         <div>
             <label for="amici-portati">Quanti amici porti</label>
             <br>
-            <input type="number" placeholder="Inserisci un numero">
+            <input type="number" placeholder="Inserisci un numero" id="amici-portati">
         </div>
         <div>
-            <label for="come-ci-hai-trovato">Come ci hai trovato</label>
+            <label for="scegli">Come ci hai trovato</label>
             <br>
-            <select name="scelta" id="scegli tra le">
+            <select name="scegli" id="scegli">
                 <option value="facebook">Facebook</option>
+                <option value="radio">Radio</option>
                 <option value="tiktok">Twitter</option>
                 <option value="instagram">Instagram</option>
                 <option value="amici">Tramite amici</option>
@@ -48,12 +52,19 @@
             </select>
         </div>
         <div>
+            <label for="costume">Da cosa ti vestirai </label>
+            <br>
+            <textarea name="nome" id="costume" rows="10" cols="30" placeholder="Scrivi qui da che cosa ti travestirai."></textarea>
+        </div>
+        <div>
             <label for="condizioni">Accetta le condizioni</label>
             <input type="checkbox" required id="condizioni">
         </div>
         <div>
-            
+            <label for="button">Iscriviti</label>
+            <br>
+            <button id="button">registrati</button>
         </div>
-    </form>
+    </form>       
 </body>
 </html>
