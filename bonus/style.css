@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-image: url(/bonus/img/halloween_party_4-wallpaper-3840x2160.jpg);
+    background-size:cover;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+table {
+    width:0px;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 70px;
+    font-style: italic;
+    background-color:rgba(0, 0, 0, 0.3);
+    background-position: center;
+}
