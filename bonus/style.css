@@ -1,30 +1,38 @@
-body {
+/*Sfondo*/
+body { 
     background-image: url(/bonus/img/backgroundhw.jpg);
     background: scroll fixed; 
     text-align: center;
     color: white;
 }
-
+/*Titolo principale*/
 h1 {
-    text-align:center;
     border-style:dashed;
     border-color: darkorange;
     font-family: fantasy;
     font-size: 50px;
 }
-
-#paragrafo-div {
+/*Titolo secondario*/
+h2 {
+    font-style: italic;
+    font-size: 40px;
+}
+/*Font del form*/
+form {
+    font-family:'Courier New', Courier, monospace;
+}
+/*Stile del paragrafo*/
+p {
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
-
+/*Stile del footer*/
 footer {
     font-weight: bold;
     font-size: 15px;
-    text-align: center;
 }
-
+/*Stile dei divisori*/
 hr {
     color: darkorange;
     background-color: darkorange;
