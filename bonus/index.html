@@ -8,62 +8,82 @@
     <link rel="stylesheet" href="/bonus/style.css">
 </head>
 <body>
-    <header>
-        <p>Halloween Party</p>
+        <header>
+            <h1>Halloween Party</h1>
+        </header> 
+    <main>
+        <h2>La festa più spaventosa dell'anno!</h2>
+        <div id="paragrafo-div">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
         <hr>
-    </header>
-    <form>
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <br>
+                <input type="text" placeholder="Inserisci il tuo nome" required id="nome">
+            </div>
+            <div>
+                <label for="e-mail">e-mail</label>
+                <br>
+                <input type="email" placeholder="Inserisci la tua e-mail" required id="e-mail">
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <br>
+                <input type="number" placeholder="Inserisci il tuo numero" required id="telefono">
+            </div>
+            <div>
+                <label for="ora-di-arrivo">Orario di arrivo</label>
+                <br>
+                <input type="time" required id="ora-di-arrivo">
+            </div>
+            <div>
+                <label for="amici-portati">Quanti amici porti</label>
+                <br>
+                <input type="number" placeholder="Inserisci un numero" id="amici-portati">
+            </div>
+            <div>
+                <label for="scegli">Come ci hai trovato</label>
+                <br>
+                <select name="scegli" id="scegli">
+                    <option value="facebook">Facebook</option>
+                    <option value="radio">Radio</option>
+                    <option value="tiktok">Twitter</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="amici">Tramite amici</option>
+                    <option value="volantini">Volantini</option>
+                </select>
+            </div>
+            <div>
+                <label for="costume">Da cosa ti vestirai </label>
+                <br>
+                <textarea id="costume" rows="10" cols="30" placeholder="Scrivi qui da che cosa ti travestirai."></textarea>
+            </div>
+            <div>
+                <label for="condizioni">Accetta le condizioni</label>
+                <input type="checkbox" required id="condizioni">
+            </div>
+            <div>
+                <br>
+                <button id="button">Registrati ora</button>
+            </div>
+        </form>
+    </main>
+    <footer>
         <div>
-            <label for="nome">Nome</label>
-            <br>
-            <input type="text" placeholder="Inserisci il tuo nome" required id="nome">
+            <hr>
+            <h3>Parties S.r.l.</h3>
+            CLSP, ECE dept. <br>
+            Johns Hopkins University <br>
+            Baltimore, MD 21218 <br>
+            <a href="halloweenparty@gmail.com">halloweenparty@gmail.com</a>
+            <p>Ciao come stai</p>
         </div>
-        <div>
-            <label for="e-mail">e-mail</label>
-            <br>
-            <input type="email" placeholder="Inserisci la tua e-mail" required id="e-mail">
-        </div>
-        <div>
-            <label for="telefono">Telefono</label>
-            <br>
-            <input type="number" placeholder="Inserisci il tuo numero" required id="telefono">
-        </div>
-        <div>
-            <label for="ora-di-arrivo">Orario di arrivo</label>
-            <br>
-            <input type="time" required id="ora-di-arrivo">
-        </div>
-        <div>
-            <label for="amici-portati">Quanti amici porti</label>
-            <br>
-            <input type="number" placeholder="Inserisci un numero" id="amici-portati">
-        </div>
-        <div>
-            <label for="scegli">Come ci hai trovato</label>
-            <br>
-            <select name="scegli" id="scegli">
-                <option value="facebook">Facebook</option>
-                <option value="radio">Radio</option>
-                <option value="tiktok">Twitter</option>
-                <option value="instagram">Instagram</option>
-                <option value="amici">Tramite amici</option>
-                <option value="volantini">Volantini</option>
-            </select>
-        </div>
-        <div>
-            <label for="costume">Da cosa ti vestirai </label>
-            <br>
-            <textarea name="nome" id="costume" rows="10" cols="30" placeholder="Scrivi qui da che cosa ti travestirai."></textarea>
-        </div>
-        <div>
-            <label for="condizioni">Accetta le condizioni</label>
-            <input type="checkbox" required id="condizioni">
-        </div>
-        <div>
-            <label for="button">Iscriviti</label>
-            <br>
-            <button id="button">registrati</button>
-        </div>
-    </form>       
+    </footer>      
 </body>
 </html>

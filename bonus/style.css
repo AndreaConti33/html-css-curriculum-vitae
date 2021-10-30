@@ -1,28 +1,33 @@
 body {
+    background-image: url(/bonus/img/backgroundhw.jpg);
+    background: scroll fixed; 
     text-align: center;
-    background-image: url(/bonus/img/halloween_party_4-wallpaper-3840x2160.jpg);
-    background-size:cover;
-}
-
-label {
     color: white;
+}
+
+h1 {
+    text-align:center;
+    border-style:dashed;
+    border-color: darkorange;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+#paragrafo-div {
+    font-size: 20px;
     font-weight: bold;
-    font-size: 25px;
-    
+    text-align: center;
 }
 
-::placeholder {
+footer {
+    font-weight: bold;
     font-size: 15px;
+    text-align: center;
 }
 
-table {
-    width:0px;
-}
-
-p {
-    color: whitesmoke;
-    font-size: 70px;
-    font-style: italic;
-    background-color:rgba(0, 0, 0, 0.3);
-    background-position: center;
+hr {
+    color: darkorange;
+    background-color: darkorange;
+    border: none;
+    height: 2px;
 }
