@@ -1,7 +1,7 @@
 /*Sfondo*/
 body { 
-    background-image: url(/bonus/img/backgroundhw.jpg);
-    background: scroll fixed; 
+    background-image: url(/html-css-curriculum-vitae/bonus/img/backgroundhw.jpg);
+    background: scroll fixed;
     text-align: center;
     color: white;
 }
