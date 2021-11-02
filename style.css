@@ -1,17 +1,16 @@
 
-#div-main { 
+body { 
     width: 800px;
     margin:0 auto;
 }
 
 /*header*/
 
-#div-header {
+header {
     text-align: center;
     background-color:whitesmoke;
 }
-
-.header-hr {
+hr {
     border: none;
     height: 3px;
     color:goldenrod;
@@ -20,7 +19,7 @@
 
 /*Immagine del profilo*/
 
-#profile-img {
+img {
     width: 250px;
     height: 250px;
 }
@@ -30,7 +29,6 @@
 h2 {
     color:#d08d10;
 }
-
 h3 {
     font-style:italic;
 }
@@ -43,11 +41,8 @@ p {
 
 /*Footer*/
 
-.footer-hr {
-    border: none;
+#footer-hr {
     height: 2px;
-    color:goldenrod;
-    background-color:goldenrod;
 }
 .footer {
     text-align: center;
